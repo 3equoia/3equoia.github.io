@@ -41,11 +41,29 @@
 	.img-cap{
 		text-align: center;
 	}
+	.up-btn{
+		position: fixed;
+		float: left;
+		padding: 5px;
+		font-size: 48px;
+		bottom: 5px;
+		right: 5px;
+		outline: none;
+		display: none;
+	}
+	.up-btn:visible{
+		display: contents;
+	}
 </style>
 <body class="bg-light">
-		<div class="container-fluid my-1 text-center bg-light bg-opacity-75 sticky-top shadow">
-			<h1 class="my-1 pt-2 pb-3">3equoia<span class="github-io">.github.io</span></h1>
-		</div>
+	<div class="container-fluid my-1 text-center bg-light bg-opacity-75 sticky-top shadow">
+		<h1 class="my-1 pt-2 pb-3">3equoia<span class="github-io">.github.io</span></h1>
+	</div>
+	<div class="up-btn visible">
+		<a href="#">
+			<i class="bi bi-file-arrow-up-fill link-dark"></i>
+		</a>
+	</div>
 	<div class="container-lg px-3 my-5">
 		<br>
 		<div class="text-center pb-5 pt-5 mt-5 mb-5 display-4">
@@ -118,16 +136,16 @@
 				<div class="row">
 					<div class="col">
 						<div class="d-flex justify-content-center justify-content-lg-center">
-							<a class="col-md-2 btn btn-info text-light" href="#"><i class="bi bi-twitter"></i> Twitter</a>
+							<a class="col-md-2 btn btn-info text-light" ><i class="bi bi-twitter"></i> Twitter</a>
 						</div>
 						<div class="d-flex justify-content-center justify-content-lg-center">
-							<a class="col-md-2 btn btn-primary" href="https://t.me/a2pic"><i class="bi bi-telegram"></i> Telegram</a>
+							<a class="col-md-2 btn btn-primary" ><i class="bi bi-telegram"></i> Telegram</a>
 						</div>
 						<div class="d-flex justify-content-center justify-content-lg-center">
-							<a style="background-color: #5000ff;" class="text-light btn col-md-2" href="https://mas.to/@3equoia"><i class="bi bi-mastodon"></i> Mastodon</a>
+							<a style="background-color: #5000ff;" class="text-light btn col-md-2" ><i class="bi bi-mastodon"></i> Mastodon</a>
 						</div>
 						<div class="d-flex justify-content-center justify-content-lg-center">
-							<a style="background-color: #000; color: #fff" class="btn col-md-2" href="https://github.com/3equoia"><i class="bi bi-github"></i> Github</a>
+							<a style="background-color: #000; color: #fff" class="btn col-md-2" ><i class="bi bi-github"></i> Github</a>
 						</div>
 					</div>
 				</div>
