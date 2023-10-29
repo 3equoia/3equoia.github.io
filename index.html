@@ -41,29 +41,86 @@
 	.img-cap{
 		text-align: center;
 	}
-	.up-btn{
-		position: fixed;
-		float: left;
-		padding: 5px;
-		font-size: 48px;
-		bottom: 5px;
-		right: 5px;
-		outline: none;
-		display: none;
-	}
-	.up-btn:visible{
-		display: contents;
-	}
 </style>
 <body class="bg-light">
-	<div class="container-fluid my-1 text-center bg-light bg-opacity-75 sticky-top shadow">
-		<h1 class="my-1 pt-2 pb-3">3equoia<span class="github-io">.github.io</span></h1>
-	</div>
-	<div class="up-btn visible">
-		<a href="#">
-			<i class="bi bi-file-arrow-up-fill link-dark"></i>
-		</a>
-	</div>
+<br><br><br>
+<nav class="navbar navbar-dark bg-light fixed-top bg-opacity-75 shadow">
+  <div style="text-align: center; display: block;" class="container-fluid">
+		<h1 class=" my-1  pb-2">3equoia<span class="github-io">.github.io</span></h1>
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+      <!-- <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div> -->
+      <!-- <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
+      </div> -->
+    </div>
+  </div>
+</nav>
+<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top bg-opacity-75 bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar scroll</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Link</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav> -->
 	<div class="container-lg px-3 my-5">
 		<br>
 		<div class="text-center pb-5 pt-5 mt-5 mb-5 display-4">
@@ -83,9 +140,9 @@
 								<div class="informations col-12 justify-content-center justify-content-sm-end">
 									<h3 class="h4">BackEnd Developer <img width="25" src="https://media.mas.to/masto-public/custom_emojis/images/000/151/130/original/847f5a3fba4fb31e.png"></h3>
 									<h3 class="h4">Industrial Designer <img width="25" src="https://s6.uupload.ir/files/1200x630wa_cvkj.png"></h3>
-									<div class="text-center align-items-center">
+									<!-- <div class="text-center align-items-center">
 										<i style="text-shadow: 0 0 0;" class="text-muted">Evolving... &#x1F499</i>
-									</div>
+									</div> -->
 								</div>
 							</div>
 						</div>
@@ -153,23 +210,36 @@
 		</div>
 		<hr>
 		<footer class="text-center clearfix">
+			<div id="mediaad-45VYE" >
+				
+			</div>
 			<p class="h6">
 				2023 <a class="pe-auto" target="_blank" href="https://3equoia.github.io/">3equoia</a>. All Rights Reversed.
 			</p>
 		</footer>
 	</div>
+
+	<div class="modal-body">
+		
+	</div>
+
+
+
+
+
+
+
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> -->
+	<script type="text/javascript">
+					const head = document.getElementsByTagName("head")[0];
+					const script = document.createElement("script");
+					script.type = "text/javascript";
+					script.async = true;
+					script.src = "https://s1.mediaad.org/serve/3equoia.github.io/loader.js";
+					head.appendChild(script);
+	</script>
 </body>
 </html>
-
-
-<!-- 		<div class="profile">
-			<img width="150" class="border border-5 rounded-circle img-fluid justify-content-lg-center" src="https://0.gravatar.com/avatar/0a459cb8cf3c2df6864de10cf5f27a1e814574fbc04c5f0a670e845ffcaa3786?size=128">
-		</div>
-		<div class="informations">
-			<h3>BackEnd Developer <img width="25" src="https://media.mas.to/masto-public/custom_emojis/images/000/151/130/original/847f5a3fba4fb31e.png"></h3>
-			<h3>Industrial Designer <img width="25" src="https://s6.uupload.ir/files/1200x630wa_cvkj.png"></h3>
-			<i style="text-shadow: 0 0 0;" class="text-muted">Evolving... &#x1F499</i>
-		</div> -->
