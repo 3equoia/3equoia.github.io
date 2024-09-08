@@ -1,4 +1,4 @@
-<h1>Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Sequoia </h1><br>
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Sequoia<br>
 Backend Developer <br> I started programming with Python and then gained relative expertise in Django framework. I have a basic understanding of concepts like Linux, Docker, and Git, and have moderate experience with them. Additionally, I have preliminary experience in industrial design and drafting with SolidWorks software.* 🌍  I'm based in Tehran, Iran* ✉️  You can contact me at [3equoia@gmail.com](mailto:3equoia@gmail.com)* 🧠  I'm learning DRF (Django Rest Framework)
 
 ### Skills
