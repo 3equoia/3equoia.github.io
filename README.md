@@ -2,7 +2,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Backend Developer <br> I started programming with Python and then gained relative expertise in Django framework. I have a basic understanding of concepts like Linux, Docker, and Git, and have moderate experience with them. Additionally, I have preliminary experience in industrial design and drafting with SolidWorks software.
 
 
-<img align="right" alt="sheikh python" width = "400" src ="https://mir-s3-cdn-cf.behance.net/project_modules/hd/06f21a161921919.63cd7887d0a70.gif">
+<img align="right" alt="sheikh python" width = "400" src ="images/coding.gif">
 
 * 🌍  I'm based in Tehran, Iran
 * ✉️  You can contact me at [3equoia@gmail.com](mailto:3equoia@gmail.com)
