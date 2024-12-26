@@ -193,35 +193,9 @@ footer{
     background-color: blue;
     height: 100%;
     border-radius: 10px;
+    animation: skill 2s 10s infinite linear;
 }
 
-#python{
-    width: 80%;
-}
-
-#html-css{
-    width: 75%;
-}
-
-#django{
-    width: 60%;
-}
-
-#boot{
-    width: 75%;
-}
-
-#solid{
-    width: 65%;
-}
-
-#git{
-    width: 50%;
-}
-
-#js{
-    width: 25%;
-}
 
 
 @media only screen and (max-width: 1200px) {
