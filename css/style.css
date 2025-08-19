@@ -5,7 +5,6 @@
     z-index: 0;
 }
 
-
 @font-face {
     font-family: "custom";
     src: url("../fonts/Roboto/Roboto-light.ttf");
@@ -39,36 +38,25 @@ header h3{
 
 .text{
     color: whitesmoke;
-    /* background-color: red; */
-    height: 700px;
-    /* display: flex; */
+    height: 500px;
+    display: flex;
     text-align: center;
     margin-bottom: 50px;
     width: 80%;
     margin: auto;
+    margin-bottom: 350px;
 }
 
 .text p{
-    padding-top: 300px;
+    padding-top: 250px;
     font-size: 32px;
     text-align: center;
     font-size: 42px;
-    /* animation: text 10s infinite steps(71); */
 }
-
-/* @keyframes text{
-    0%{
-        width: 0;
-    }
-    100%{
-        width: 100%;
-    }
-} */
 
 .contents{
     background-color: #131313;
     width: 1000px;
-    height: 500px;
     border-radius: 15px;
     margin: 75px auto;
     text-align: center;
@@ -87,16 +75,12 @@ header h3{
     width: 300px;
     top: 100px;
     border: 5px solid yellow;
-    left: -100px;
-    
-    /* right: 0; */
-    /* margin-left: auto; */
+    left: -100px;    
     margin-right: auto;
     box-shadow: 0 0 15px 1px gray;
 }
 
 .stack{
-    /* background-color: #060606; */
     width: 700px;
     height: 200px;
     display: flex;
@@ -104,7 +88,6 @@ header h3{
     justify-content: center;
     border-radius: 15px;
     margin-bottom: 25px;
-    margin-left: 200px;
     box-shadow: inset 0 0 5px 1px gray;
 }
 
@@ -121,7 +104,6 @@ header h3{
 
 .feature{
     width: 700px;
-    /* background-color: #060606; */
     margin-bottom: 25px;
     margin-left: 200px;   
     margin-top: 25px;
@@ -143,7 +125,6 @@ header h3{
 
 footer{
     margin: 25px 0;
-    position: relative;
     background-color: #131313;
     height: 75x;
     text-align: center;
@@ -173,7 +154,7 @@ footer{
 }
 
 .skills h2{
-    font-size: 45px;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -201,7 +182,7 @@ footer{
 @media only screen and (max-width: 1200px) {
     .contents{
         width: 750px;
-        height: 450px;
+        /* height: auto !important; */
         margin: 75px auto;
         right: -50px;
     }
@@ -213,14 +194,14 @@ footer{
     }
     
     .stack{
-        height: 150px;
+        /* height: auto !important; */
+        padding: 50px 0;
         display: flex;
         align-items: center;
         justify-content: center;
         border-radius: 15px;
         margin-bottom: 25px;
         margin-left: 200px;
-        box-shadow: inset 0 0 5px 1px gray;
     }
     
     
@@ -255,7 +236,7 @@ footer{
 @media only screen and (max-width: 950px) {
     .contents{
         width: 650px;
-        height: 400px;
+        height: 450px;
         margin: 75px auto;
         right: -45px;
     }
@@ -267,19 +248,20 @@ footer{
     }
     
     .stack{
-        height: 125px;
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 15px;
+        border-radius: 15px !important;
         margin-bottom: 25px;
         box-shadow: inset 0 0 5px 1px gray;
+        width: 300px !important;
+        height: 150px;
     }
     
     
     .stack h3{
         margin: 15px;
-        font-size: 18px;
+        font-size: 16px;
         text-shadow: 0 0 15px grey;
     }
     
@@ -309,13 +291,13 @@ footer{
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 750px) {
     .text{
         width: 90%;
     }
     .contents{
-        width: 100%;
-        height: 500px;
+        width: 90%;
+        height: auto !important;
         position: relative;
         box-shadow: 0 0 ;
         left: 0;
@@ -332,11 +314,12 @@ footer{
     }
     
     .stack{
+        width: 100% !important;
         height: 125px;
         display: flex;
         align-items: center;
         justify-content: center;
-        border-radius: 0;
+        border-radius: 0 !important;
         border-top: 2px solid gray;
         box-shadow: inset 0 0 5px 1px gray;
     }
@@ -387,4 +370,17 @@ footer{
         padding: 15px;
     }
     
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    .contents{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 125px;
+        padding: 25px;
+    }
 }

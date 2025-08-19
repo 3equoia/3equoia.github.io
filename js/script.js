@@ -7,7 +7,7 @@ const writer = async (text, textElem) => {
     for (let index = 0; index < text.length; index++) {
         const letter = text[index]
         textElem.innerHTML += letter
-        await wait(100)
+        await wait(50)
     }
 }
 writer(helloWorld, textElement)
