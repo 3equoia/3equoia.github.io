@@ -1,17 +1,17 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../fonts/Roboto/Roboto-light.ttf");
+}
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    z-index: 0;
-}
-
-@font-face {
-    font-family: "custom";
-    src: url("../fonts/Roboto/Roboto-light.ttf");
+    font-family: "roboto" !important;
 }
 
 body{
-    font-family: "custom";
     background-color: #060606;
 }
 
@@ -177,6 +177,9 @@ footer{
     animation: skill 2s 10s infinite linear;
 }
 
+.bracket {
+    color: red;
+}
 
 
 @media only screen and (max-width: 1200px) {
@@ -384,3 +387,57 @@ footer{
         padding: 25px;
     }
 }
+
+
+
+
+
+
+
+/* ---------- PARTICLE JS ---------- */
+#particles-js{
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  background-image: url('');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+/* ---------- END PARTICLE JS ---------- */
