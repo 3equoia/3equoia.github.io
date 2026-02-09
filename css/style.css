@@ -185,7 +185,11 @@ footer{
 
 model-viewer {
     position: absolute;
-    left: 25px !important;
+    left: 125px !important;
+    /* top: 25px; */
+    /* background-color: gray; */
+    width: 125px;
+    height: 125px;
 }
 
 
@@ -305,8 +309,8 @@ model-viewer {
     }
 
     model-viewer {
-        left: -50px !important;
-        top: -25px;
+        /* left: -50px !important;
+        top: -25px; */
         scale: 0.8;
     }
 }
@@ -402,9 +406,9 @@ model-viewer {
     }
 
     model-viewer {
-        bottom: -500px !important;
-        left: -75px !important;
-        scale: 0.5;
+        /* bottom: -500px !important;
+        left: -75px !important; */
+        /* scale: 0.5; */
     }
 }
 
