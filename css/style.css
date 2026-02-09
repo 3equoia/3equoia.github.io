@@ -183,20 +183,29 @@ footer{
     color: red;
 }
 
+
 model-viewer {
     position: absolute;
-    left: 125px !important;
-    /* top: 25px; */
-    /* background-color: gray; */
     width: 125px;
     height: 125px;
 }
+
+model-viewer.code_tag {
+    left: 125px !important;
+    width: 125px;
+    height: 125px;
+}
+
+model-viewer.python {
+    right: 15px;
+    bottom: 25px;
+}
+
 
 
 @media only screen and (max-width: 1200px) {
     .contents{
         width: 750px;
-        /* height: auto !important; */
         margin: 75px auto;
         right: -50px;
     }
@@ -208,7 +217,6 @@ model-viewer {
     }
     
     .stack{
-        /* height: auto !important; */
         padding: 50px 0;
         display: flex;
         align-items: center;
@@ -244,10 +252,15 @@ model-viewer {
         font-size: 30px;
     }
 
-    model-viewer {
+    model-viewer.code_tag {
         left: 0px !important;
         top: 0 !important;
         scale: 0.8;
+    }
+
+    model-viewer.python {
+        left: 50px;
+        bottom: 25px;
     }
 }
 
@@ -308,9 +321,7 @@ model-viewer {
         font-size: 24px;
     }
 
-    model-viewer {
-        /* left: -50px !important;
-        top: -25px; */
+    model-viewer.code_tag, model-viewer.python {
         scale: 0.8;
     }
 }
@@ -390,6 +401,11 @@ model-viewer {
     .skills{
         padding: 15px;
     }
+
+    model-viewer.python {
+        left: initial;
+        top: 0 !important;
+    }
     
 }
 
@@ -406,10 +422,9 @@ model-viewer {
     }
 
     model-viewer {
-        /* bottom: -500px !important;
-        left: -75px !important; */
-        /* scale: 0.5; */
+        scale: 0.5 !important;
     }
+
 }
 
 
