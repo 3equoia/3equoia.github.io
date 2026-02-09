@@ -55,6 +55,7 @@ header h3{
 }
 
 .contents{
+    position: relative;
     background-color: #131313;
     width: 1000px;
     border-radius: 15px;
@@ -182,6 +183,11 @@ footer{
     color: red;
 }
 
+model-viewer {
+    position: absolute;
+    left: 25px !important;
+}
+
 
 @media only screen and (max-width: 1200px) {
     .contents{
@@ -208,7 +214,6 @@ footer{
         margin-left: 200px;
     }
     
-    
     .stack h3{
         margin: 15px;
         font-size: 24px;
@@ -233,6 +238,12 @@ footer{
     
     .feature h3{
         font-size: 30px;
+    }
+
+    model-viewer {
+        left: 0px !important;
+        top: 0 !important;
+        scale: 0.8;
     }
 }
 
@@ -292,6 +303,12 @@ footer{
     .feature h3{
         font-size: 24px;
     }
+
+    model-viewer {
+        left: -50px !important;
+        top: -25px;
+        scale: 0.8;
+    }
 }
 
 
@@ -343,15 +360,11 @@ footer{
         box-shadow: 0 0 ;
         width: 100%;
         margin: auto;
-        /* width: 450px; */
-        /* margin-left: 125px; */
     }
     
     .feature{
-        /* margin-bottom: 20px; */
         margin-top: 75px;
         padding: 20px;
-        /* height: 225px; */
     }
 
     .feature p{
@@ -386,6 +399,12 @@ footer{
         flex-wrap: wrap;
         gap: 125px;
         padding: 25px;
+    }
+
+    model-viewer {
+        bottom: -500px !important;
+        left: -75px !important;
+        scale: 0.5;
     }
 }
 
