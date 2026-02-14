@@ -56,7 +56,7 @@ header h3{
 
 .contents{
     position: relative;
-    background-color: #131313;
+    background-color: rgba(19, 19, 19, 0.75);
     width: 1000px;
     border-radius: 15px;
     margin: 75px auto;
