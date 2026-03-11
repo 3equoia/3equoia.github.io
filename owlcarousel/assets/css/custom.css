@@ -1,0 +1,17 @@
+body, .title {
+  background-color: #060606;
+}
+
+h1, h2, h3, h4 {
+    color: whitesmoke;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#demos .owl-carousel .item {
+    padding: 0;
+    height: auto;
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+}

@@ -52,6 +52,7 @@ header h3{
     font-size: 32px;
     text-align: center;
     font-size: 42px;
+    color: whitesmoke;
 }
 
 .contents{
@@ -118,6 +119,7 @@ header h3{
     margin: 15px 0;
     line-height: 25px;
     font-size: 18px;
+    color: whitesmoke;
 }
 
 .feature h3{
