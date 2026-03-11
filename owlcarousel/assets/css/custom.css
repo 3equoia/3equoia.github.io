@@ -4,14 +4,29 @@ body, .title {
 
 h1, h2, h3, h4 {
     color: whitesmoke;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
 
-#demos .owl-carousel .item {
+.portfolio_demos {
+    margin-top: 100px;
+}
+
+.portfolio_demos #demos {
+    padding-top: 50px;
+}
+
+.portfolio_demos #demos .owl-carousel .item {
     padding: 0;
     height: auto;
     border: 3px solid goldenrod;
     border-radius: 5px;
+}
+
+.portfolio_demos > h2 {
+    text-align: center;
+}
+
+.large-12 > h3 {
+    text-align: center;
 }
